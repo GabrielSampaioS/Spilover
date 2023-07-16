@@ -15,7 +15,7 @@ O modelo SIR é um modelo bem conhecido na literatura, é uma visão de alto niv
 
 ![modeloSIR](https://github.com/GabrielSampaioS/Spilover/assets/89399378/e527e0df-a809-4218-b55a-4d04a6b92454)
 
-* [explicando e aplicando o modelo-sir] #explicando-e-aplicando-o-modelo-sir) 
+* [explicando e aplicando o modelo-sir] (#explicando-e-aplicando-o-modelo-sir) 
 
 ## Vírus ##
 Vamos começar com uma definição por David Quammen no livro dele: Virulência é um conceito tão relativo e caleidoscópico que alguns especialistas se recusam a usar essa palavra. Eles preferem "patogenicidade", que é quase um sinônimo, mas não exatamente. Patogenicidade é a capacidade de um micróbio de causar uma doença. Virulência é o grau mensurável da tal doença, especialmente quando a medida em relação a outras cepas de patógenos semelhantes.
