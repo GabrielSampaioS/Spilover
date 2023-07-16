@@ -45,6 +45,7 @@ porem o que os dados vem mostrando é que na verdade a regra é "Só queime as p
 <li>Como penetrar numa célula dentro desse hospedeiro</li>
 <li>Como se apoderar do equipamento e dos recursos da célula para produzir várias cópias de si mesmo</li>
 <li>Como sair novamente - sair da célula, sair do hospedeiro, e como entrar no próximo</li>
+</ol>
 
 <H1> Links utilizados de apoio neste projeto: </H1>
   
