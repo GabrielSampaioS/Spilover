@@ -27,21 +27,29 @@ O modelo SIR é um modelo bem conhecido na literatura, é uma visão de alto niv
 <H1> Vírus </H1>
 Vamos começar com uma definição por David Quammen no livro dele: Virulência é um conceito tão relativo e caleidoscópico que alguns especialistas se recusam a usar essa palavra. Eles preferem "patogenicidade", que é quase um sinônimo, mas não exatamente. Patogenicidade é a capacidade de um micróbio de causar uma doença. Virulência é o grau mensurável da tal doença, especialmente quando a medida em relação a outras cepas de patógenos semelhantes.
 
-<br> E um velho clichê sobre a virulência: A primeira regra de sucesso para um parasita é "não mate seus hospedeiro" 
-porem o que os dados vem mostrando é que na verdade a regra é "Só queime as pontes depois de atravessá-lá"
+<br> E um velho clichê sobre a virulência: A primeira regra de sucesso para um parasita é "não mate seus hospedeiro"
+que em outras palavras é, a co-evolução entre organismos sendo infectados e organismos infecciosos tenderia sempre a uma convivência harmoniosa no sentido de garantir máxima sobrevivência para ambos os lados.
+porem o que os dados vem mostrando é que na verdade a regra é "Só queime as pontes depois de atravessá-lá". O vírus Mixoma é um exemplo disso, link de um dos estudos sobre o vírus no fim do arquivo
 
-4 desafios básicos(não vamos nos preocuprar com essas partes no código):
+<br> No código tentarei criar um modelo que chegue nesta conclusão, criar um modelo de virus com características como 
+
+<li> infectividade </li>
+<li> virulencia </li>
+<li> Tempo de cubação</li>
+
+<br> Entre outros parametrôs, também tentarei criar alguma lógica a respeito dos hospedeiros resevatórios para tentar criar o evento Spilover 
+
+<br> 4 desafios básicos(não vamos nos preocuprar com essas partes no código):
 <ol type="1">
 <li>Como passar de um hospedeiro para outro</li>
 <li>Como penetrar numa célula dentro desse hospedeiro</li>
 <li>Como se apoderar do equipamento e dos recursos da célula para produzir várias cópias de si mesmo</li>
 <li>Como sair novamente - sair da célula, sair do hospedeiro, e como entrar no próximo</li>
 
-
-
 <H1> Links utilizados de apoio neste projeto: </H1>
   
-https://wp.ufpel.edu.br/fentransporte/2020/04/09/a-evolucao-epidemica-do-covid-19-modelo-sir/
+Modelo SIR: https://wp.ufpel.edu.br/fentransporte/2020/04/09/a-evolucao-epidemica-do-covid-19-modelo-sir/
+Vírus Mixoma: https://doc.woah.org/dyn/portal/digidoc.xhtml?statelessToken=GM8Xf0a_v2ti23NVK8oEEHtk8jKsNtjghHMVc27qSzE=&actionMethod=dyn%2Fportal%2Fdigidoc.xhtml%3AdownloadAttachment.openStateless
 
 <H1> Livros : </H1>
 
