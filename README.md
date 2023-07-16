@@ -21,6 +21,7 @@ O modelo SIR é um modelo bem conhecido na literatura, é uma visão de alto niv
 <li> β a taxa de infecção </li> 
 <li> γ  a taxa de recuperação dos indivíduos, </li> 
 <li> N = S + I + R = População total </li> 
+OBS: neste caso o R é refente aos indivíduos recuperados MAIS os indivíduos mortos, já que o N neste caso é constante
 
 <br> Um detalhe importante, β é a taxa de infecção entre os hospedeiros e <strong> NÂO </strong> a taxa de infecção do virus para o hospedeiro. Para isso vamos utilizar algumas outras ideas para simular o virus
 
