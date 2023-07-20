@@ -7,12 +7,14 @@
 //bool spillover(){}
 
 void EquacaoSIR(const int n, int& s, int& i, int& r, float beta, float gama){
-//x1 = dD/dT = - BetaIS/N ]
-//      S(t+Δt) = S(t) + (dS/dt) * Δt
-//x2 = dI/dT =   BetaIS/N - gamaI
-//      I(t+Δt) = I(t) + (dI/dt) * Δt
-//x3 = dR/dr =   gamaI
-//      R(t+Δt) = R(t) + (dR/dt) * Δt
+/*
+  x1 = dD/dT = - BetaIS/N ]
+        S(t+Δt) = S(t) + (dS/dt) * Δt
+  x2 = dI/dT =   BetaIS/N - gamaI
+        I(t+Δt) = I(t) + (dI/dt) * Δt
+  x3 = dR/dr =   gamaI
+        R(t+Δt) = R(t) + (dR/dt) * Δt
+*/
 float x1, x2, x3;
 int contador = 1;
 while(contador < 100){
@@ -23,7 +25,7 @@ while(contador < 100){
 
     //std::cout << "T: = " << contador << " | " << x1 << " | " << x2 << " | " << x3 << std::endl;
     //std::cout << "T: = " << contador << " |  " << s << " |   " << i << " |   " << r << std::endl;
-    std::cout << contador << "," << s << "," << i << "," << r << std::endl;
+    //std::cout << contador << "," << s << "," << i << "," << r << std::endl;
 
     s += x1;
     i += x2;
